@@ -183,11 +183,4 @@ db.users.updateOne({ email: "admin@example.com" }, { $set: { role: "admin" } })
 
 ---
 
-## 📦 GitHub Setup
-```bash
-git init
-git add .
-git commit -m "Initial commit: MediBook patient booking system"
-git remote add origin https://github.com/YOUR_USERNAME/patient-booking-system.git
-git push -u origin main
-```
+
