@@ -23,6 +23,7 @@ export default function Navbar() {
           <ul className="navbar__links">
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/doctors">Doctors</NavLink></li>
+            <li><NavLink to="/stay-healthy">Stay Healthy</NavLink></li>
             {user && <li><NavLink to="/dashboard">Dashboard</NavLink></li>}
             {user && <li><NavLink to="/book">Book Appointment</NavLink></li>}
             {user?.role === 'admin' && <li><NavLink to="/admin">Admin</NavLink></li>}

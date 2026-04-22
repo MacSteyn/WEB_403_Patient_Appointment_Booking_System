@@ -10,6 +10,7 @@ import BookAppointment from './pages/BookAppointment';
 import Doctors from './pages/Doctors';
 import Profile from './pages/Profile';
 import AdminPanel from './pages/AdminPanel';
+import StayHealthy from './pages/StayHealthy';
 
 function App() {
   const { loading } = useAuth();
@@ -33,6 +34,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/doctors" element={<Doctors />} />
+            <Route path="/stay-healthy" element={<StayHealthy />} />
 
             {/* Protected Routes */}
             <Route element={<ProtectedRoute />}>
@@ -60,3 +62,4 @@ function App() {
 }
 
 export default App;
+
